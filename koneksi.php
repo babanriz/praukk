@@ -1,7 +1,7 @@
 <?php
 
-// simple aja ini koneksinya disebut php oop
-$conn = new mysqli('localhost', 'root', '', 'otomotif');
+// simple aja ini koneksinya disebut php native
+$conn = mysqli_connect('localhost', 'root', '', 'otomotif');
 
 ?>
 
